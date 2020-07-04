@@ -1,0 +1,308 @@
+{
+padding: 0;
+margin: 0;
+}
+body{
+	background: #000 url(../IMG/back2.png);
+	background-repeat: 	no-repeat;	
+	background-attachment: 	fixed;	
+	background-size: cover;
+	text-align: center; 	
+}
+h1#Titulo{
+	background: #848484;
+	color: #2EFEF7	;
+	font-size: 4em;
+	border-radius: 2em;
+	width: 480px;
+	text-shadow: 5px 1px 1px rgba(93,112,210,15);
+	text-align:center;
+	margin:0.25em auto;
+	padding:0.25em,auto;
+	display: block;
+}
+header{
+	text-align: center;
+	font-family: Helvetica;
+	color: #FFF;
+	text-align: center;
+	display: inline-block;
+	max-width: 650px;
+	font-size: 1.25em;
+	margin: 0.5em,auto;
+	padding: 0.5em,auto;
+}
+nav{
+	margin: auto;
+	width: 650px;
+	display: inline-block;
+	text-align: center;
+}
+ul{
+	display: inline-block;
+	list-style: none;
+}
+.menu li a{
+	background-color: #2E2E2E;
+	color:#FFF;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	border-radius: 2px;
+}
+.menu li a:hover{
+	background-color: #D8D8D8;
+	color: #2EFEF7;
+	box-shadow: 0 0 10px #434343, 0 0 40px #434343, 0 0 80px #434343;
+	transition-delay: .16s;
+}
+.menu>li{
+	float: left;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 80px;
+}
+.menu li:hover > ul{
+	display: block;
+}
+.menu li ul li{
+	position: relative;	
+}
+.menu li ul li ul{
+	right: -215px;
+	top: 0px;
+}
+#Definicion{
+	display:inline-block;	
+	background: #A4A4A4	;
+	border: 0.5em;
+	border-color: #2EFE64;
+	max-width: 750px;
+	border-style: solid;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+#Defi,#Com,#Trat,#Tipo,#Rela,#Pag{
+	color: #FFF;
+	text-shadow: 1px 1px 4px rgba(111,115,155,7);
+	font-size: 2.05em;
+	text-align: center;
+}
+#Parradefi{
+	max-width: 650px;
+	display: inline-block;	
+	text-align: center;
+}
+#Como{
+	display: inline-flex;
+}
+#Como_2{
+	display:inline-block;	
+	background: #151515	;
+	border: 0.5em;
+	color: #FFF;
+	border-color: #BFFF00;
+	max-width: 450px;
+	border-style: solid;
+	border-radius: 0.5em;
+	text-align: center;
+	padding: 0.5em,auto;
+	height: 750px;	
+	margin: 0.5em,auto;
+}
+#Parracom,ol{
+	max-width: 375px;
+	display: inline-block;
+	text-align: center;
+	font-size: .85em;
+}
+#Tratamiento{
+	display:inline-block;	
+	background: #151515	;
+	color: #FFF;
+	border: 0.5em;
+	border-color: #64FE2E;
+	max-width: 750px;
+	border-style: solid;
+	border-radius: 0.5em;
+	padding: 0.5em,auto;
+	margin: 0.5em,auto;
+}
+#Parratrat,dl{
+	max-width: 600px;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.9em;
+}
+#Tipos{
+	display: inline-flex;
+}
+#Tipo_2{
+	display:inline-block;	
+	background: #1C1C1C	;
+	border: 0.5em;
+	border-color: #DF0101;
+	max-width: 750px;
+	border-style: solid;
+	border-radius: 0.5em;
+	padding: 0.5em,auto;
+	margin: 0.5em,auto;
+	color: #FFF;
+}
+table{
+	border-collapse: collapse;
+	width: 75%;
+	display: inline-block;
+}
+td,th{
+	border:0.2em;
+	border-color: #08088A;
+	border-style: solid;
+}
+th{
+	background-color: #9F81F7;
+}
+td{
+	background-color: #FE9A2E;
+}
+#Relacion{
+	display:inline-block;	
+	background: #6E6E6E	;
+	border: 0.5em;
+	border-color: #FACC2E;
+	max-width: 280px;
+	height: 660px;
+	border-style: solid;
+	border-radius: 0.5em;
+	padding: 0.5em,auto;
+	margin: 0.5em,auto;
+}
+div#Formulario{
+	border-style: dotted;
+	border-color:#000;
+	max-width:  800px;
+	margin: 0.2em auto;
+	padding: 0em auto;
+	display: block;
+	text-align: center;
+	background-color: #FFF;
+}
+input,select{
+	font-size: 1.25em;
+}
+input,label{
+	width: 90%;
+	display: inline-block;
+}
+input#button{
+	font-color:#F00 
+}
+b{
+	color: #58FAF4;
+}
+aside#Otros{
+	display: inline-flex;
+	width: auto;
+	height: auto;
+}
+div#Paginas{
+	background-color: #5882FA;
+	border-radius: 0.75em;
+	max-width:970px;
+	height: 235px;
+	padding: 0.5em;
+	margin: 0.5em,auto;
+	display: inline-block;
+	border:0.5em;
+	border-style: solid;
+	border-color: #3ADF00;
+}
+footer#Creador{
+	background-color: #FFFFFF;
+	border-radius: 0.75em;
+	max-width:1010px;
+	height: 415px;
+	padding: 0.5em;
+	margin: 0.5em,auto;
+	display: inline-block;
+	border:0.5em;
+	border-style: solid;
+	border-color: #8A0829;	
+}
+a#Vnav{
+	background: #0FF;
+	border-radius: 0.25em;
+	text-decoration: none;
+}
+b#Aut{
+	font-size: 1.55em;
+	font-color: #58FAF4;
+}
+.slider{
+	width: 370px;
+	height: 160px;
+	margin: auto;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	border-radius: 0.2%;
+	justify-content: center;
+	align-items: flex-end;
+	box-shadow: 0 0 0 8px #0101DF,
+				0 0 0 15px #9FF781,
+				0 10px 20px;
+}
+.slider img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.7s;
+}
+.slider input[type="radio"]{
+	display: none;
+}
+.slider input[type="radio"]:checked ~ img{
+	opacity: 1;
+}
+.slider input[type="radio"] +label{
+	position: relative;
+	z-index: 50;
+	margin: 10px;
+	display: block;
+	width: 23px;
+	height: 23px;
+	background: #000000;
+	border-radius: 10%;
+	border: 2px cover #DF0101;
+	cursor: pointer;
+}
+.slider input[type="radio"]:checked + label{
+	background: #00FFFF;
+	border: 2px solid #DF01A5;
+}
+a#Tnav{
+	background: #FFF;
+	font-size: 3em;
+	border:4px;
+	border-radius: 2em;
+	border-style: solid;
+	border-color: #F00;
+	text-align: center;
+	display: inline-block;
+	max-width: 500px;
+	color: #F00;
+	text-decoration: none;
+}
+a#Tnav:hover{
+	background: #000;
+	border-color: #00FFFF;
+	color: #00FFFF;
+
+}
